@@ -1,0 +1,35 @@
+{
+  "name": "vscode-copy-active-file-name",
+  "displayName": "Copy Active File Name (No Ext)",
+  "repository": "https://github.com/gincheong/vscode-copy-active-file-name",
+  "description": "Copies the name of the active file to the clipboard without the extension.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:copy-active-file-name.copyFileNameNoExt"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "copy-active-file-name.copyFileNameNoExt",
+        "title": "Copy Active File Name (No Ext)"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.80.0",
+    "typescript": "^5.1.0"
+  }
+}
