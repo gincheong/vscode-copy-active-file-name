@@ -11,4 +11,3 @@ This extension allows you to copy the name of the active file to the clipboard w
 1. Open a file in VS Code.
 2. Open Command Palette (`Cmd+Shift+P` or `Ctrl+Shift+P`).
 3. Run `Copy Active File Name (No Ext)`.
-
