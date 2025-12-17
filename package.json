@@ -4,7 +4,7 @@
   "repository": "https://github.com/gincheong/vscode-copy-active-file-name",
   "description": "Copies the name of the active file to the clipboard without the extension.",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.80.0"
   },
